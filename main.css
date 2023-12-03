@@ -114,31 +114,45 @@ header .head3 .cont {
 }
 
 .container {
-    width: 1170px;
+    width: 100%;
     display: flex;
     overflow-x: hidden;
 }
 
 .container .gallery {
-    width: 100%;
     display: flex;
     padding: 10px;
     flex: none;
+    width: 100vh;
+    height: 800px;
 }
 
 .container .gallery img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 .controls {
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     margin: 10% auto;
+    width: 100vh;
 }
 
 .controls #rightB, #leftB {
     width: 70px;
     cursor: pointer;
+}
+
+.gallery1 {
+    background: url('assets/banner-bg.jpg') no-repeat cover;
+}
+
+.gallery2 {
+    background: url('assets/planets.jpg') no-repeat;
+}
+
+.gallery3 {
+    background: url('assets/veyder.jpg') no-repeat;
 }
