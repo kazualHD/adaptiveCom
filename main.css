@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.cont {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-c-b {
+    justify-content: space-between;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+
+.j-c-e {
+    justify-content: end;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.a-i-c {
+    align-items: center;
+}
+
+.a-i-s {
+    align-items: start;
+}
+
+.a-i-e {
+    align-items: end;
+}
+
+
+header .head1 {
+    background-color: #414141;
+}
+
+header .head2 {
+    padding: 10px 0;
+}
+
+header .head2 p {
+    margin: 0 5px;
+    color: #fff;
+}
+
+header .head3 {
+    background-color: #141414;
+}
+
+header p {
+    color: #fff;
+}
+
+header .kab {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+header .kab:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+header .nav a {
+    margin-right: 50px;
+}
+
+header .head3 .cont {
+    padding: 20px;
+}
+
+#home-2 .home-2 {
+    padding: 100px 0;
+}
+
+#home-2 .info1 h2 {
+    font-size: 30px;
+}
+
+#home-2 .info1 h3 {
+    font-size: 26px;
+}
+
+#home-2 .info1 a {
+    font-size: 22px;
+    color: blue;
+}
+
+#home-2 .info2 img {
+    margin-top: 40px;
+}
+
+#home-2 .info2 a {
+    font-size: 20px;
+}
